@@ -107,8 +107,8 @@ fun HomeScreen(
     LaunchedEffect(location) {
 
         location?.let {
-            weatherViewModel.fetchCurrentWeater(location.latitude,location.longitude,"9cef30487be97e49da538604a4017e7d")
-            weatherViewModel.fetchWeatherForecast(locationviewModel,"9cef30487be97e49da538604a4017e7d")
+            weatherViewModel.fetchCurrentWeater(location.latitude,location.longitude,"Enter Your APIKEY")
+            weatherViewModel.fetchWeatherForecast(locationviewModel,"Enter Your APIKEY")
         }
 
     }
